@@ -9,8 +9,8 @@ def main():
     def delete(task):
         print("""
               
-              Deleting Your tasks
-              
+              Delete
+
               """)
         if task in tasks:
             tasks.remove(task)
